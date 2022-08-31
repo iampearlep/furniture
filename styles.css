@@ -608,5 +608,12 @@ width: 100%;
   width: 100%;
   height: auto;
 }
+.product-section {
+  margin: 10px 10px 100px;
+}
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 }
 
