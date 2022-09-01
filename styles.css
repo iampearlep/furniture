@@ -189,7 +189,7 @@ ul li p {
   font-weight: 700;
   text-decoration: none;
 }
-.swiper1 {
+.swiper {
   width: 100%;
   height: 100%;
 }
@@ -295,7 +295,88 @@ margin: 30px 30px 100px;
   position: absolute;
   margin-top: 40px;
 }
-
+.product-img span {
+  text-decoration: line-through;
+  padding: 10px;
+  color: #6B7280;
+}
+/* Review Section */
+.review-section {
+margin: 30px;
+}
+.review-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.review-carousel {
+  max-width: 100%;
+  position: relative;
+}
+.review-carousel h2 {
+font-size: 2.10rem;
+}
+.mySlides{
+  display: none;
+}
+.mySlides p {
+  width: 90%;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 14px 21px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+  background-color: rgb(31, 31, 31);
+}
+.next {
+  right: 78%;
+ border-radius: 50%;
+}
+.next:hover {
+  background-color: #5c616a;
+}
+.prev:hover {
+  background-color: rgb(202, 202, 202);
+}
+.person {
+  margin-top: 40px;
+}
+.person h4{
+margin-left: 70px;
+margin-top: -45px;
+font-size: 1.1rem;
+}
+.person p {
+  margin: 0 0 20px 70px;
+  font-size: 0.875rem;
+  color: #6B7280;
+}
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.review-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
 
 
 
@@ -587,10 +668,15 @@ width: 100%;
 .swiper-slide img {
   width: 100%;
 }
+.swiper-slide p {
+  position: absolute;
+  top: 200px;
+  font-size: 1.3rem;
+}
 .choice-container {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 20px 20px 100px;
   gap: 20px;
 }
 .choice {
@@ -609,11 +695,44 @@ width: 100%;
   height: auto;
 }
 .product-section {
-  margin: 10px 10px 100px;
+  margin: 20px 20px 100px;
 }
 .product {
+  display: flex;
+  flex-direction: column;
+}
+.img-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.product-img img {
+  width: 75%;
+}
+.product-text {
+  margin-top: 60px;
+}
+.product-text1 {
+  margin-top: 50px;
+}
+.product-text2 {
+  margin-top: 85px;
+}
+.product-text3 {
+  margin-top: 20px;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+}
+.prev, .next {
+  display: none;
+}
+.review-carousel h2 {
+  font-size: 1.5rem;
+}
+.mySlides p {
+  width: 100%;
 }
 }
 
