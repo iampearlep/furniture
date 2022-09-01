@@ -661,12 +661,13 @@ width: 60%;
     background: none;
   }
   .hero-container {
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 20px auto;
   }
   h1 {
     font-size: 2.25rem;
+    width: 100%;
   }
   .hero-container p {
     width: 100%;
