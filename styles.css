@@ -2,10 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 html, body {
   position: relative;
   height: 100%;
+  overflow: hidden;
 }
 .top-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
@@ -618,6 +620,7 @@ width: 60%;
 }
 
 @media (max-width: 689px) {
+
     nav .logo {
         margin-left: -50px;
         margin-top: -5px;
