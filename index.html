@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Furniture Site</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -15,7 +14,9 @@
       integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css" />
+    <title>Furniture Site</title>
   </head>
   <body>
     <section class="top-section">
@@ -33,12 +34,25 @@
         </ul>
       </nav>
       <div class="hero-container">
-        <h1>Beautify Your Home And Us Today</h1>
-        <p>
+        <h1 data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        >Beautify Your Home And Us Today</h1>
+        <p data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">
           Never have to worry about what you need to beautify your homes, we
           have you covered, try us today.
         </p>
-        <button>Shop Now</button>
+        <button data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">Shop Now</button>
       </div>
     </section>
     <!--Bar Section-->
@@ -309,6 +323,10 @@
       <hr>
       <p class="copyright">furniture. &copy; 2022 Pearlep</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
   </body>
